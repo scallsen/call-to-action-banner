@@ -1,0 +1,85 @@
+html {
+	box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.cta-box {
+  position: relative;
+  overflow: none;
+  width: 100%;
+  max-height: 500px;
+}
+
+.cta-content-box {
+  background-color: red;
+  width: 90%;
+  max-width: 60rem;
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+}
+
+.cta-image {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  background-color: blue;
+}
+
+.cta-image-direct {
+  max-width: 100%;
+}
+
+.cta-content {
+  display: inline;
+  float: left;
+  width: 70%;
+  background-color: green;
+  padding-left: 1.5rem;
+}
+
+.cta-header {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.cta-subheading {
+
+}
+
+.cta-button {
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.4em 0.75em 0.3em;
+  border: 3px solid #333;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
